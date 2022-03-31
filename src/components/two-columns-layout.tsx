@@ -12,7 +12,7 @@ const TwoColumnsLayout = ({
   return (
     <Row className="items-center">
       <div className="w-1/5">
-        <Heading size="xs">{label}</Heading>
+        <span className="font-medium">{label}</span>
       </div>
       <div className="w-1/2">{children}</div>
     </Row>
